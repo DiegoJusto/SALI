@@ -23,17 +23,17 @@ public class InstituicaoBean {
     
     public InstituicaoBean(){
         endereco = new Endereco();
-        endereco.setRua("Rua do Cruzeirinho");
+        endereco.setRua("Rua Teste");
         endereco.setNumero(763);
-        endereco.setBairro("Alto Manoel Mariano");
-        endereco.setCidade("Icó");
-        endereco.setEstado("CE");
+        endereco.setBairro("Bairro Teste");
+        endereco.setCidade("Cidade Teste");
+        endereco.setEstado("TT");
         
         instituicao = new Instituicao();
         
-        instituicao.setNomeCompleto("Faculdade Vale do Salgado");
-        instituicao.setEmail("fvs@edu.com.br");
-        instituicao.setTelefone(35612760);
+        instituicao.setNomeCompleto("Escola Teste");
+        instituicao.setEmail("tst@email.com");
+        instituicao.setTelefone(11111111);
     
     }
     
